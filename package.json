@@ -1,0 +1,15 @@
+{
+  "name": "agent-spawner-demo",
+  "version": "1.0.0",
+  "description": "Dynamic agent instantiation with template inheritance and lifecycle management",
+  "main": "dist/example.js",
+  "scripts": {
+    "demo": "ts-node src/example.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
